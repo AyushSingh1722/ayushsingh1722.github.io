@@ -199,6 +199,18 @@ p {
   letter-spacing: 0.08em;
 }
 
+.paper-preview {
+  width: 160px;
+  height: 160px;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+  border-radius: 18px;
+  border: 1px solid #d8e1ec;
+  box-shadow: 0 10px 24px rgba(20, 38, 60, 0.1);
+  background-color: #ffffff;
+}
+
 .footer-note {
   text-align: right;
   font-size: small;
