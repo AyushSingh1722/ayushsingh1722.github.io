@@ -201,7 +201,7 @@ p {
 
 .paper-preview-frame {
   width: 220px;
-  height: 160px;
+  height: 148px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -219,7 +219,7 @@ p {
   display: block;
   object-fit: contain;
   object-position: center top;
-  transform: translateY(-8px) scale(1.08);
+  transform: scale(1.08);
   transform-origin: center top;
 }
 
