@@ -200,18 +200,18 @@ p {
 }
 
 .paper-preview {
-  width: 140px;
-  height: 140px;
+  width: 160px;
+  height: 160px;
   display: block;
   margin: 0 auto;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
-  border-radius: 14px;
-  border: 1px solid #d8e1ec;
-  box-shadow: 0 8px 20px rgba(20, 38, 60, 0.08);
-  background-color: #ffffff;
-  padding: 8px;
-  box-sizing: border-box;
+  border-radius: 0;
+  border: 0;
+  box-shadow: none;
+  background-color: transparent;
+  padding: 0;
+  box-sizing: content-box;
 }
 
 .footer-note {
