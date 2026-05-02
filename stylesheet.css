@@ -82,6 +82,7 @@ p,
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
+  line-height: 1.6;
 }
 
 strong {
@@ -106,7 +107,7 @@ h2 {
   padding-top: 20px;
   margin: 0;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 32px;
+  font-size: 36px;
 }
 
 .one {
@@ -139,4 +140,67 @@ span.highlight {
     padding: 20px;
     display: inline-block;
     border-radius: 10px;
+}
+
+body {
+  background-color: #fcfcfb;
+  color: #222222;
+}
+
+p {
+  margin: 0 0 14px 0;
+}
+
+.tagline {
+  margin: 12px 0 18px 0;
+  font-size: 16px;
+  text-align: center;
+  color: #4d5b6a;
+}
+
+.profile-photo {
+  width: 100%;
+  max-width: 280px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 18px;
+  object-fit: cover;
+  box-shadow: 0 12px 30px rgba(20, 38, 60, 0.14);
+}
+
+.paper-thumb {
+  width: 160px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 18px;
+  box-sizing: border-box;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #edf3fb 0%, #dfe8f5 100%);
+  color: #1f3552;
+}
+
+.paper-thumb-accent {
+  background: linear-gradient(135deg, #eef8f0 0%, #d9ebdc 100%);
+  color: #23452d;
+}
+
+.paper-thumb-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.paper-thumb-subtitle {
+  margin-top: 10px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.footer-note {
+  text-align: right;
+  font-size: small;
+  color: #666666;
 }
