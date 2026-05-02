@@ -206,17 +206,12 @@ p {
   margin: 0 auto;
   object-fit: contain;
   object-position: center;
-  border-radius: 0;
-  border: 0;
-  box-shadow: none;
+  border-radius: 8px;
+  border: 1px solid #e6edf5;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
   background-color: #ffffff;
-  padding: 0;
-  box-sizing: content-box;
-}
-
-.publication-entry {
-  padding-left: 12px;
-  border-left: 3px solid #e6edf5;
+  padding: 6px;
+  box-sizing: border-box;
 }
 
 .publication-title {
@@ -225,24 +220,7 @@ p {
 }
 
 .publication-summary {
-  margin: 10px 0 14px 0;
-}
-
-.paper-button {
-  display: inline-block;
-  padding: 4px 10px;
-  border-radius: 6px;
-  background-color: #c94a3a;
-  color: #ffffff;
-  font-size: 13px;
-  font-weight: 700;
-  line-height: 1;
-}
-
-.paper-button:hover,
-.paper-button:focus {
-  color: #ffffff;
-  background-color: #a93d30;
+  margin: 10px 0 0 0;
 }
 
 .footer-note {
