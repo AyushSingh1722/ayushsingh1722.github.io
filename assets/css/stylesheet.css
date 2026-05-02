@@ -214,6 +214,37 @@ p {
   box-sizing: content-box;
 }
 
+.publication-entry {
+  padding-left: 12px;
+  border-left: 3px solid #e6edf5;
+}
+
+.publication-title {
+  font-size: 15px;
+  line-height: 1.35;
+}
+
+.publication-summary {
+  margin: 10px 0 14px 0;
+}
+
+.paper-button {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 6px;
+  background-color: #c94a3a;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.paper-button:hover,
+.paper-button:focus {
+  color: #ffffff;
+  background-color: #a93d30;
+}
+
 .footer-note {
   text-align: right;
   font-size: small;
